@@ -1,0 +1,35 @@
+{
+  "name": "genpark-multi-language-livestream-host-teleprompter-script-synthesizer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Real-time multilingual livestream host teleprompter speech synthesizer & Q&A assistant.",
+  "author": "genpark",
+  "category": "productivity",
+  "tags": [
+    "livestream-teleprompter",
+    "multilingual-script",
+    "real-time-qna",
+    "host-assistant",
+    "livelab"
+  ],
+  "inputs": {
+    "viewer_question_text": {
+      "type": "string"
+    },
+    "host_language": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "instant_teleprompter_cue": {
+      "type": "string"
+    },
+    "recommended_product_upsell": {
+      "type": "string"
+    },
+    "response_latency_ms": {
+      "type": "integer"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
